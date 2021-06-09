@@ -6,7 +6,7 @@ inputEl.addEventListener('blur', validationCheck);
 
 function validationCheck(event) {
    const currentValue = inputEl.value;
-      if (currentValue.length == requiredValue) {
+      if (currentValue.length === requiredValue) {
          inputEl.classList.add("valid")
          inputEl.classList.remove("invalid")
       }

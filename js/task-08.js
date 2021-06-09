@@ -35,5 +35,6 @@ function clear(event) {
    for (let box of boxArrayDestroy) {
       box.remove();
    }
+   inputEl.value = '';
    boxArray = [];
 };

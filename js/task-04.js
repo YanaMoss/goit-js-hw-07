@@ -17,4 +17,3 @@ function decrement() {
    counterValue = counterValue - 1;
    value.textContent = counterValue;
 }
-
